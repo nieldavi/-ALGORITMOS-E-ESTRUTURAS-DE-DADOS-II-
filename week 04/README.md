@@ -3,3 +3,5 @@ Esse projeto consiste numa adpatação do projeto guaido do DataQuest `Building 
 Além disso, esse Trabalho tem como colaboradores:
 * Francsico Daniel Davi
 * Luiz Henrique de Araújo Dantas 
+* 
+Para aplicar do projeto foi criado 3 funções principais:
