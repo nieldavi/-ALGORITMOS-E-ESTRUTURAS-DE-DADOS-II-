@@ -4,7 +4,7 @@ Esse projeto consiste numa adpatação do projeto guaido da plataforma DataQuest
 `The Reddit Climate Change`.
 Além disso, esse trabalho tem como colaboradores:
 * :construction_worker: Francsico Daniel Davi
-* :construction_worker: Luiz Henrique de Araújo Dantas 
+* :construction_worker: Luiz Henrique Araújo Dantas 
 ---
 Para implementação do projeto foi criado 3 funções principais:
 ## Função 1: Encontrando id 
