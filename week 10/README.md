@@ -38,7 +38,8 @@ A próxima analise feita foi a entre o grau e o números de vizinhos. Em rede n�
 ![Alt text](https://github.com/nieldavi/ALGORITMOS-E-ESTRUTURAS-DE-DADOS-II/blob/main/week%2010/sample%20data/download.png)
 
 ## Degree Norte
-![Alt text](https://github.com/nieldavi/ALGORITMOS-E-ESTRUTURAS-DE-DADOS  II/blob/main/week%2010/sample%20data/NORTE_degree_assortativity.png)
+![Alt text](https://github.com/nieldavi/ALGORITMOS-E-ESTRUTURAS-DE-DADOS-II/blob/main/week%2010/sample%20data/NORTE_degree_assortativity.png)
+
 
 ## Degree Nodeste
 ![Alt text](https://github.com/nieldavi/ALGORITMOS-E-ESTRUTURAS-DE-DADOS-II/blob/main/week%2010/sample%20data/NORDESTE_degree_assortativity.png)
