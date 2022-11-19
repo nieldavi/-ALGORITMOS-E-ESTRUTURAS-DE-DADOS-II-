@@ -51,3 +51,51 @@ A próxima analise feita foi a entre o grau e o números de vizinhos. Em rede n�
 ## Degree Centro-Oeste
 ![Alt text](https://github.com/nieldavi/ALGORITMOS-E-ESTRUTURAS-DE-DADOS-II/blob/main/week%2010/sample%20data/CENTRO-OESTE_degree_assortativity.png)
 
+# Componentes conectados
+Agora  vamos obsevar como os componentes estão conectados dentro da rede trafego aerea brasileir. Nosso primeiro passo para essa análise é verificar os componentes conectados e foram obtidos 5 componentes. 
+
+Apos isso, fizemos uma função para extrair os componentes do dataset e depois extraimos as quantidade de componentes por reginão do brasil em forma de porcentagem obtendo os seguintes valores:
+`Norte: 25.6619%`
+
+`Nordeste: 18.7373%`
+
+`Sul: 14.2566%`
+
+`Sudeste: 23.4216%`
+
+`Centro-Oeste: 17.9226%`
+
+# Cenários simulados
+
+Agora vamos simular as viagens nos destinho do dataset entre as regiões do pais. Logo, as viagens simuladas serão as seguintes:
+* Cidade no Norte (1) e uma cidade no Sul (2)
+* Cidade no Sul (2) e uma cidade no Nordeste (3)
+* Cidade no Nordeste (3) e uma cidade no Centro-Oeste (4)
+* Cidade no Centro-Oeste (4) e uma cidade no Sudeste (5
+
+
+Para analizar o caminho mais curto para chegar ao destino, utilizaremos a função `nx.shortest_path()`, que nos auxiliará mostrando o nome de cada um dos aeroportos que será visitado durante a viagem.
+Nossos resultados foram o seguintes:
+ * As cidades de Manaus e Porto Alegre não são cidades que estão na mesma região mas que podem ser visitadas a partir de um único voo.
+ * As cidades de Porto Alegre e São Gonçalo do Amarante não são cidades que estão na mesma região mas que podem ser visitadas a partir de um único voo.
+ * Saindo de São Gonçalo do Amarante/RN para Dourados/MS, temos que fazer uma conexão no aeroporto de Confins. O aeroporto SBCF está localizado no estado de Minas Gerais, na região Sudeste, para ir do SBSG para o SBDO temos que fazer uma conexão nesse aeroporto, abaixo estão alguns detalhes da localização do aeroporto.
+* Partindo de Dourados/MS para o Rio de Janeiro/RJ, notamos que o voo passa pelo aeroporto de Confins, também na região sudeste, para poder chegar ao seu destino final.
+
+# Coeficiente de Clusterização
+
+Por fim, para essa análise fizemos para o  dataset total e para cada região do pais. Para o dataset total utilizamos o seguinte código:
+`nx.average_clustering(G_br)`
+
+E utlizando o mesmo principio para as regiões do Brasil, obtemos os seguintes coeficientes:
+
+`Norte: 0.6159`
+
+`Sul: 0.5979`
+
+`Nordeste: 0.4380 `
+
+`Sudeste: 0.6186 `
+
+`Centro-Oeste: 0.5618 `
+
+Portanto, podemos afirmar que, aregião nordeste possui o menor índice de clusterização dentre todas as outras regiões, podemos afirmar que, como ela está mais próximo do valor 0, a sua organização da malha aérea se aproxima da topologia estrela.
