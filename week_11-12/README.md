@@ -255,9 +255,15 @@ As porcentagens de conexões dos grupos está disposta da seguinte forma:
 
 ## Análise de métricas no Retina
 
-Utilizando o Retina, iremos observar as seguintes métricas: Degree, In-degree, Closeness Centrality, Modularity Class, Clustering Coefficient. 
+Utilizando o Retina, iremos observar as seguintes métricas: Degree, In-degree, Closeness Centrality, Modularity Class, Clustering Coefficient. Podemos definir as métricas como:
 
-Há uma explicação disponível de alguns dos nós do nosso grafo na plataforma Loom, no seguinte [link](https://www.loom.com/share/087cf65ab67143229950cfc9a13cfd37)
+- In-Degree: Quem cita a página da Universidade Federal do Rio Grande do Norte
+- Out-Degree: Quantas páginas estão sendo citadas, podemos relacionar como as extremidades adjacentes ao nó.
+- Modularity Class: Qual comunidade o nó faz parte.
+- Closeness Centrality: É a distância média mais curta de um nó para o seu vizinho, ou seja, a menor distância de um nó ao seu vizinho.
+- Clustering Coefficient: O coeficiente de clustering mede o quão conectados estão os vizinhos de um respectivo nó.
+
+Há uma explicação disponível de alguns dos nós do nosso grafo na plataforma Loom, no seguinte [link](https://www.loom.com/share/087cf65ab67143229950cfc9a13cfd37).
 
 
 ## Integração da comunidade com o Gephisto
