@@ -248,10 +248,11 @@ O Gephi é uma ferramenta utilizada para gerar imagens de redes provindas de um 
 
 ![Network of Federal University of Rio Grande do Norte](./imgs/community.png)
 
-A nossa comunidade está dividida em 9 grupos de acordo com sua excentricidade, o grupo na cor roxa apresenta maior quantidade de membros (13903). Os nós que possuem maior tamanho podem ser listados no grupo 2 em cor azul, tendo destaque os nós que representam o Brasil, os Estados do Brasil, as regiões do Brasil, a região Nordeste e um único nó em cor verde, do grupo 3, que representa o Tempo no Brasil. Porém o nó que possui maior excentricidade é o nó denominado Calvinism, com uma excentricidade de 9.0.
+A nossa comunidade está dividida em 9 grupos de acordo com sua excentricidade, o grupo na cor roxa apresenta maior quantidade de membros (13903). Os nós que possuem maior tamanho podem ser listados no grupo em cor azul, tendo destaque os nós que representam o Brasil, os Estados do Brasil, as regiões do Brasil, a região Nordeste e um único nó do grupo em cor verde, que representa o Tempo no Brasil. Porém o nó que possui maior excentricidade é o nó com nome Calvinism, com uma excentricidade de valor 9.0.
 
-As porcentagens de conexões dos grupos está disposta da seguinte forma:
+Na imagem abaixo, retirada do Gephi, podemos notar como está distribuída a excentricidade dos nós no grafo. Pode-se observar que há pouquíssimos nós (0.01% do grafo) com altos níveis de excentricidade enquanto a maior parte do nosso grafo (97.15%) não possui nenhum valor de excentricidade.
 
+![Eccentricity](./imgs/Gephi-Eccentricity.png)
 
 ## Análise de métricas no Retina
 
