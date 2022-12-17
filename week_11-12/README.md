@@ -255,6 +255,8 @@ As porcentagens de conexões dos grupos está disposta da seguinte forma:
 
 ## Análise de métricas no Retina
 
+O [Retina](https://ouestware.gitlab.io/retina/beta/) se trata de uma aplicação web que facilita a visualização de grafos a partir de um dado arquivo do tipo .graphml, com ele é possível ver detalhadamente diversas métricas que foram exportadas do Gephi, obter informações de nós individualmente e observar dados importantes sobre a rede que está sendo explorada.
+
 Utilizando o Retina, iremos observar as seguintes métricas: Degree, In-degree, Closeness Centrality, Modularity Class, Clustering Coefficient. Podemos definir as métricas como:
 
 - In-Degree: Quem cita a página da Universidade Federal do Rio Grande do Norte
@@ -268,7 +270,7 @@ Há uma explicação disponível de alguns dos nós do nosso grafo na plataforma
 
 ## Integração da comunidade com o Gephisto
 
-Foram geradas as seguintes imagens no Gephisto (https://jacomyma.github.io/gephisto/), com ela podemos entender como estão divididos os grupos e onde estão localizados no grafo, na primeira imagem vemos que há círculos que mostram onde estão localizados os nós de uma certa cor, evidenciando a presença e proximidade entre as conexões que eles fazem no grafo.
+Foram geradas as seguintes imagens no [Gephisto](https://jacomyma.github.io/gephisto/), com ela podemos entender como estão divididos os grupos e onde estão localizados no grafo, na primeira imagem vemos que há círculos que mostram onde estão localizados os nós de uma certa cor, evidenciando a presença e proximidade entre as conexões que eles fazem no grafo.
 
 ![](./imgs/Gephisto_Network_Map.png)
 ![](./imgs/Gephisto_Network_Map_2.png)
