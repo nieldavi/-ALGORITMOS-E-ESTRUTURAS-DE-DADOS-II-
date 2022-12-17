@@ -242,3 +242,27 @@ Observamos ainda que há diversos nós que estão conectados ao core final, de f
 Com isso, finalizamos nosso projeto, foi bastante enriquecedor, apesar de alguns problemas existentes, onde iremos tentar trabalhar para conseguir mitigar e apresentar um resultado mais íntegro no próximo projeto.
 > _Não foi realizada a análise da data pipeline no nosso projeto._
 
+## Visuaização da Rede gerada no Gephi e hospedagem no Github
+
+O Gephi é uma ferramenta utilizada para gerar imagens de redes provindas de um arquivo da extensão .graphml, dessa forma utiizamos o graphml gerado pela análise nos passos anteriores e criamos a nossa comunidade e hospedamos o seu resultado em uma página própria aqui no Github, essa página pode ser acessada no link a seguir: [Link da rede](https://nieldavi.github.io/Eccentricity/network/), e assim, podemos mostrar o seguinte resultado obtido na imagem abaixo. Utilizamos a métrica de excentricidade para que possamos analisar os caminhos mais curtos existentes para chegar a um determinado nó e obter o diâmetro da rede, que é o maior valor da distância obtida.
+
+![Network of Federal University of Rio Grande do Norte](./imgs/community.png)
+
+A nossa comunidade está dividida em 9 grupos de acordo com sua excentricidade, o grupo na cor roxa apresenta maior quantidade de membros (13903). Os nós que possuem maior tamanho podem ser listados no grupo 2 em cor azul, tendo destaque os nós que representam o Brasil, os Estados do Brasil, as regiões do Brasil, a região Nordeste e um único nó em cor verde, do grupo 3, que representa o Tempo no Brasil. Porém o nó que possui maior excentricidade é o nó denominado Calvinism, com uma excentricidade de 9.0.
+
+As porcentagens de conexões dos grupos está disposta da seguinte forma:
+
+
+## Análise de métricas no Retina
+
+Utilizando o Retina, iremos observar as seguintes métricas: Degree, In-degree, Closeness Centrality, Modularity Class, Clustering Coefficient. 
+
+Há uma explicação disponível de alguns dos nós do nosso grafo na plataforma Loom, no seguinte [link](https://www.loom.com/share/087cf65ab67143229950cfc9a13cfd37)
+
+
+## Integração da comunidade com o Gephisto
+
+Foram geradas as seguintes imagens no Gephisto (https://jacomyma.github.io/gephisto/), com ela podemos entender como estão divididos os grupos e onde estão localizados no grafo, na primeira imagem vemos que há círculos que mostram onde estão localizados os nós de uma certa cor, evidenciando a presença e proximidade entre as conexões que eles fazem no grafo.
+
+![](./imgs/Gephisto_Network_Map.png)
+![](./imgs/Gephisto_Network_Map_2.png)
